@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "status": "PASS",
+  "source_files_byte_identical": 29,
+  "installer_dll_byte_identical": true,
+  "installer_dll_sha256": "ABC74433879C3DCD516C6F7DFF3932EAB5087F6984307C4A6DC32F44B9B2D7FB",
+  "scratch_build": {
+    "errors": 0,
+    "warnings": 0,
+    "sdk": "10.0.400",
+    "rebuilt_dll_matches_payload": true,
+    "rebuilt_dll_sha256": "ABC74433879C3DCD516C6F7DFF3932EAB5087F6984307C4A6DC32F44B9B2D7FB"
+  },
+  "offline_checks": {
+    "share1_passed": 7,
+    "installer_passed": 15,
+    "powershell_syntax": "PASS",
+    "git_ignore_rules": "PASS"
+  },
+  "models": [
+    {
+      "file": "models/Wall.rvt",
+      "sha256": "B6C6DDD8D7752CD06A72846CA9F7B977AB8802EC4DC1D0A393E39662010E7902",
+      "unchanged": true
+    },
+    {
+      "file": "models/Slab.rvt",
+      "sha256": "CE5CEAF5C29B9FD3E30C10941C4B246D2FEB3F5EF92F9A98F313DD2A1EF7B5B3",
+      "unchanged": true
+    },
+    {
+      "file": "models/Combined.rvt",
+      "sha256": "B3E484E120CB65D68AAA8111726A7512B813D06FB88AAE306F3FEDF7894677D4",
+      "unchanged": true
+    }
+  ],
+  "workflow": {
+    "file": ".github/workflows/checks.yml",
+    "actions_verified_from_official_readme": [
+      "actions/checkout@v7",
+      "actions/setup-dotnet@v6"
+    ],
+    "github_execution_performed": false,
+    "revit_not_required": true
+  },
+  "real_user_addin_installation_modified": false
+}

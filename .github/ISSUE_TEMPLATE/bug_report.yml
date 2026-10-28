@@ -1,0 +1,43 @@
+name: Bug report / 问题反馈
+description: Report a reproducible software or installer issue.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use an anonymized example. Do not attach private project files, credentials, or personal paths.
+        请使用脱敏示例，无需提交个人邮箱、真实工程或完整运行日志。
+  - type: input
+    id: version
+    attributes:
+      label: Software version / 软件版本
+      placeholder: R36.Share1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / 运行环境
+      description: Windows version, Revit version, and whether the issue concerns Wall, Slab, or installation.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Identify the provided shell model and the smallest set of actions and parameters that reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result / 实际结果
+      description: Include the relevant error text or an anonymized screenshot if available.
+    validations:
+      required: true

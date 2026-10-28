@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "runtime_under_current_user_local_data",
+      "pass": true
+    },
+    {
+      "name": "drafts_and_logs_are_separate",
+      "pass": true
+    },
+    {
+      "name": "all_paths_absolute_and_scoped",
+      "pass": true
+    },
+    {
+      "name": "blank_host_has_no_project_defaults",
+      "pass": true
+    },
+    {
+      "name": "verified_matching_geometry_has_no_project_defaults",
+      "pass": true
+    },
+    {
+      "name": "null_host_has_no_project_defaults",
+      "pass": true
+    },
+    {
+      "name": "no_embedded_project_default_resource",
+      "pass": true
+    }
+  ]
+}

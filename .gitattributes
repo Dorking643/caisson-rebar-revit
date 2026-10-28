@@ -1,0 +1,11 @@
+# Preserve exact bytes: packaged file hashes must remain valid after checkout.
+# .editorconfig defines line endings for new edits.
+* -text
+*.cs diff=csharp
+*.rvt binary
+*.rfa binary
+*.dll binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

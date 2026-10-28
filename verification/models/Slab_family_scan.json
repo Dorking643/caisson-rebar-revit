@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "file": "Slab.rvt",
+  "family_count": 1,
+  "file_unchanged": true,
+  "families": [
+    {
+      "strings_checked": 5954,
+      "sensitive_hit_count": 0,
+      "hits": [],
+      "family": "沉井底板_直径4800_含周边坡口",
+      "status": "READ"
+    }
+  ],
+  "sha256": "CE5CEAF5C29B9FD3E30C10941C4B246D2FEB3F5EF92F9A98F313DD2A1EF7B5B3"
+}

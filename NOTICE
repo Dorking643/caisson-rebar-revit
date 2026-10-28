@@ -1,0 +1,12 @@
+CaissonRebar — Parametric Reinforcement Modeling for Circular Caissons
+
+Copyright 2026 The CaissonRebar Authors
+
+The CaissonRebar Authors are listed, in order, in AUTHORS.md.
+
+The project-owned source code, compiled programs, installation scripts,
+example models, images and documentation are licensed under the Apache
+License, Version 2.0. See LICENSE for the complete terms.
+
+Autodesk Revit and its API assemblies are external dependencies and are
+not included. Third-party components remain subject to their own terms.

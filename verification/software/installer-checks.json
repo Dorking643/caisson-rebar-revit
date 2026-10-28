@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "passed": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "dry_run_writes_no_install_files",
+      "pass": true
+    },
+    {
+      "name": "running_revit_blocks_install_without_writes",
+      "pass": true
+    },
+    {
+      "name": "empty_payload_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_payload_version_rejected",
+      "pass": true
+    },
+    {
+      "name": "missing_main_dll_rejected",
+      "pass": true
+    },
+    {
+      "name": "duplicate_payload_names_rejected",
+      "pass": true
+    },
+    {
+      "name": "new_install_creates_manifest_and_receipt",
+      "pass": true
+    },
+    {
+      "name": "manifest_points_to_installed_dll",
+      "pass": true
+    },
+    {
+      "name": "repeat_install_is_idempotent",
+      "pass": true
+    },
+    {
+      "name": "uninstall_dry_run_preserves_manifest",
+      "pass": true
+    },
+    {
+      "name": "new_install_uninstalls_cleanly",
+      "pass": true
+    },
+    {
+      "name": "locked_receipt_leaves_retryable_state",
+      "pass": true
+    },
+    {
+      "name": "uninstall_retry_completes_after_restoration",
+      "pass": true
+    },
+    {
+      "name": "previous_manifest_restored_verbatim",
+      "pass": true
+    },
+    {
+      "name": "foreign_manifest_rejected_without_install",
+      "pass": true
+    }
+  ]
+}

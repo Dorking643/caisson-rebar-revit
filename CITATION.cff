@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use CaissonRebar in your work, please cite this software record."
+type: software
+title: "CaissonRebar — Parametric Reinforcement Modeling for Circular Caissons"
+authors:
+  - family-names: "Zhang"
+    given-names: "Guangyao"
+  - family-names: "Hao"
+    given-names: "Bojin"
+  - family-names: "Ma"
+    given-names: "Wenliang"
+  - family-names: "Zeng"
+    given-names: "Lingxin"
+  - family-names: "Wang"
+    given-names: "Jiaomei"
+  - family-names: "Liu"
+    given-names: "Qiuya"
+  - family-names: "Yang"
+    given-names: "Shangfei"
+version: "36.1.0"
+license: Apache-2.0
+abstract: >-
+  CaissonRebar is a C# add-in for Autodesk Revit 2025 for parameter editing,
+  graphical previews and native reinforcement creation on circular caisson
+  wall and slab hosts. The distribution includes source code, a per-user
+  installer and three anonymized concrete shell models without reinforcement.
+keywords:
+  - Revit
+  - BIM
+  - circular caisson
+  - reinforcement
+  - parametric modeling
+
+repository-code: "https://github.com/Dorking643/caisson-rebar-revit"
+url: "https://github.com/Dorking643/caisson-rebar-revit"
+date-released: "2026-10-29"

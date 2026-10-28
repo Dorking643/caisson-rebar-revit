@@ -1,0 +1,83 @@
+{
+  "release": "R36.Share1",
+  "date": "2026-10-29",
+  "basis": "R36",
+  "originalDllSha256": "406bdf6cf908383d9edc92606efd27875b7b083a7197507d6ebf27bfc6284e3f",
+  "build": {
+    "target": "net8.0-windows",
+    "sdk": "10.0.400",
+    "errors": 0,
+    "warnings": 0
+  },
+  "scope": "Packaging, per-user runtime paths, removal of project-specific default parameters, and installer behaviour. No claim of complete engineering validation.",
+  "checks": {
+    "share1Checks": 7,
+    "installerChecks": 15,
+    "geometryFilesUnchanged": 12,
+    "binaryIdentifierScan": "PASS"
+  },
+  "unchangedFiles": [
+    {
+      "file": "BendConstraint.cs",
+      "unchangedText": true,
+      "deliveredSha256": "0fb99f57eba8de336415229ab49e4ceca1f42b4a191b0aef44a70aad0ba49758"
+    },
+    {
+      "file": "FilletGeometry.cs",
+      "unchangedText": true,
+      "deliveredSha256": "51e1cfa0526d715df7f269578676c035e8e32b10f17ecfcf6cad8e34ade2436d"
+    },
+    {
+      "file": "GroupGeometry.cs",
+      "unchangedText": true,
+      "deliveredSha256": "ca206429869a65e427f7c8dc4719d618dd5ce9bad32a95ece3b92d97de368ce0"
+    },
+    {
+      "file": "SectionCoordinates.cs",
+      "unchangedText": true,
+      "deliveredSha256": "3b6ca63c3dcaa2d4030bf0dcdf701772de5938bfe01f9f7ca020f19617bb3951"
+    },
+    {
+      "file": "ShapeDefaults.cs",
+      "unchangedText": true,
+      "deliveredSha256": "9a943c48d325b3ac75e774691d7f650aa4cac283ab80660a1d59ab9ce7e974ae"
+    },
+    {
+      "file": "SlabGeometry.cs",
+      "unchangedText": true,
+      "deliveredSha256": "6937a57b3d1f509c98337f741b9501ed0c7e551ee23b6686a99e460d2d13f691"
+    },
+    {
+      "file": "WallValidation.cs",
+      "unchangedText": true,
+      "deliveredSha256": "145e763b3c3cb6b9b397b88d056745d5d6c1fc9216801fd5323652c3093dcd99"
+    },
+    {
+      "file": "SlabModels.cs",
+      "unchangedText": true,
+      "deliveredSha256": "710418be22fbf75f5f5f27961060da0ca10ff9dc8eaa4114bd3797d16e523544"
+    },
+    {
+      "file": "ReviewModels.cs",
+      "unchangedText": true,
+      "deliveredSha256": "4565a7d6daa094ddb5eedea11785010abcee672016f03d8a9f13c2513bd0043c"
+    },
+    {
+      "file": "WallHostReader.cs",
+      "unchangedText": true,
+      "deliveredSha256": "73623ff5fd128d93e4c451ac9da6b5915493cd857436e69275380a5d0be2b9f2"
+    },
+    {
+      "file": "SlabHostReader.cs",
+      "unchangedText": true,
+      "deliveredSha256": "a5ec2c8eeb53f8fa306a245432c06b5e99af211b76c5b6b47c23b2976e7b34b0"
+    },
+    {
+      "file": "WallModelEngine.cs",
+      "unchangedText": true,
+      "deliveredSha256": "9905d558b63de2080d79ba13a384403638d52345a2fb0c1c87486ed4d74ba956"
+    }
+  ],
+  "outputDllSha256": "abc74433879c3dcd516c6f7dff3932eab5087f6984307c4a6dc32f44b9b2d7fb",
+  "liveRevitPluginLaunchTested": false
+}

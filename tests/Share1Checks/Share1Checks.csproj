@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><DebugType>none</DebugType></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/ReviewModels.cs" Link="ReviewModels.cs" />
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/GroupGeometry.cs" Link="GroupGeometry.cs" />
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/WallValidation.cs" Link="WallValidation.cs" />
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/SlabModels.cs" Link="SlabModels.cs" />
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/SlabDefaultData.cs" Link="SlabDefaultData.cs" />
+    <Compile Include="../../src/CaissonWall.UiReview.Revit2025/RuntimePaths.cs" Link="RuntimePaths.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "native_rebar_count": 0,
+  "data_storage_count": 0,
+  "physical_model_elements": 2,
+  "views": [
+    "01_Concrete_Shell",
+    "02_Concrete_Shell_Plan"
+  ],
+  "fingerprint_resolution_mm": 1E-05,
+  "host_geometry_unchanged": true,
+  "groups": {
+    "wall": {
+      "rebar_count": 0,
+      "host_count": 1,
+      "host_geometry_unchanged": true,
+      "host_reader_verified": true,
+      "host_id": 2785,
+      "technical_mark": "CJ-WALL",
+      "inner_radius_mm": 2250,
+      "outer_radius_mm": 2700,
+      "height_mm": 5480,
+      "solid_fingerprint": "5CEB79FA64B5D324C69F69BE4A0C8F02C9FE7A53759DFC9B811D710DAA4361A3"
+    },
+    "slab": {
+      "rebar_count": 0,
+      "host_count": 1,
+      "host_geometry_unchanged": true,
+      "host_reader_verified": true,
+      "host_id": 2786,
+      "technical_mark": "CJ-SLAB",
+      "inner_radius_mm": 0,
+      "outer_radius_mm": 2400,
+      "height_mm": 400,
+      "solid_fingerprint": "C3E659E52F834E15F8BD12ECDD6E7617274AA4B9D02540A2B65C67D509F39200"
+    }
+  },
+  "api_metadata_scan": {
+    "string_parameters_checked": 6569,
+    "metadata_entities_checked": 0,
+    "residual_hit_count": 0,
+    "residual_hits": [],
+    "external_file_references": 2,
+    "is_workshared": false,
+    "site_latitude": 0,
+    "site_longitude": 0,
+    "site_place_empty": true,
+    "project_author_empty": true,
+    "placeholder_count": 2,
+    "bound_external_reference_count": 0,
+    "external_reference_placeholders": [
+      {
+        "id": 8,
+        "name": "Standard",
+        "class": "Autodesk.Revit.DB.KeynoteTable",
+        "reference_type": "KeynoteTable",
+        "status": "NotFound",
+        "absolute_path": "",
+        "path": ""
+      },
+      {
+        "id": 2362,
+        "name": "Assembly Code Settings",
+        "class": "Autodesk.Revit.DB.AssemblyCodeTable",
+        "reference_type": "AssemblyCodeTable",
+        "status": "NotFound",
+        "absolute_path": "",
+        "path": ""
+      }
+    ]
+  },
+  "file_username_empty": true,
+  "file_username_contains_sensitive_token": false,
+  "file_author_available": false,
+  "file_author_empty": true,
+  "central_path_empty": true,
+  "mode": "combined",
+  "file": "Combined.rvt",
+  "saved_reopened": true,
+  "source_disk_unchanged": true,
+  "source_geometry_unchanged": true,
+  "sha256": "B3E484E120CB65D68AAA8111726A7512B813D06FB88AAE306F3FEDF7894677D4",
+  "warnings": [],
+  "neutral_output_directory": true,
+  "scoped_process_temp_directory": true,
+  "privacy_scope": "New project; only selected concrete host(s) copied. No native rebar or design DataStorage retained. API-visible names, string parameters, ExtensibleStorage, project/site metadata and external references checked. Not a forensic certification of proprietary binary internals."
+}

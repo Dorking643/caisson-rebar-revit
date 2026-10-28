@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "status": "PASS",
+  "known_identity_string_scan": "PASS",
+  "markdown_relative_links": "PASS",
+  "confirmed_publication_metadata": "PASS",
+  "obsolete_metadata_scan": "PASS",
+  "source_files_byte_identical": 29,
+  "unchanged_binary_assets": {
+    "installer/payload/P7.CaissonWallUi.R36.Share1.dll": true,
+    "models/Wall.rvt": true,
+    "models/Slab.rvt": true,
+    "models/Combined.rvt": true
+  },
+  "runtime_tests": "Prior successful records retained; source and runtime assets unchanged in this metadata-only revision.",
+  "git_history_created": false,
+  "github_upload_performed": false,
+  "scope": "Publication metadata, CFF schema, official license text, documentation links and direct byte/string checks. Existing model API verification is retained with matching hashes."
+}

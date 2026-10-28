@@ -1,0 +1,23 @@
+name: Feature request / 功能建议
+description: Describe a use case and a proposed improvement.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case / 使用场景
+      description: What task would this improvement help you complete?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour / 期望功能
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround / 当前替代方法
+    validations:
+      required: false

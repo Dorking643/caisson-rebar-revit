@@ -1,0 +1,15 @@
+{
+  "version": "R36.Share1",
+  "files": [
+    {
+      "name": "P7.CaissonWallUi.R36.Share1.deps.json",
+      "sha256": "d19ff6180d9f60c759fadee5d00a56164674060ac3d807e646b9186eb62da5d3",
+      "size": 475
+    },
+    {
+      "name": "P7.CaissonWallUi.R36.Share1.dll",
+      "sha256": "abc74433879c3dcd516c6f7dff3932eab5087f6984307c4a6dc32f44b9b2d7fb",
+      "size": 492032
+    }
+  ]
+}

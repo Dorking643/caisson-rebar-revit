@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "kind": "offline_managed_form_preview",
+  "release": "R36.Share1",
+  "revit_session_used": false,
+  "model_files_modified": false,
+  "wall": {
+    "groups": 1,
+    "bars": 3,
+    "issues": 0,
+    "can_build_in_managed_check": true,
+    "radius_mm": 2475,
+    "local_z_mm": [
+      -300,
+      -450,
+      -600
+    ]
+  },
+  "slab": {
+    "groups": 1,
+    "bars": 3,
+    "issues": 0,
+    "can_build_in_managed_check": true,
+    "radius_mm": [
+      500,
+      700,
+      900
+    ],
+    "local_z_mm": -100
+  },
+  "note": "Tutorial input checked with the delivered geometry library. Images are direct DrawToBitmap renders of delivered WinForms controls, not live Revit screenshots or evidence of native creation."
+}

@@ -1,0 +1,33 @@
+# Build outputs and local IDE state
+**/bin/
+**/obj/
+**/build/
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
+
+# Local execution data and temporary files
+**/logs/
+**/drafts/
+**/runtime/
+**/tmp/
+**/temp/
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
+
+# Revit automatic backups; the three models/*.rvt samples remain tracked
+*.????.rvt
+*.????.rfa
+*_backup/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example

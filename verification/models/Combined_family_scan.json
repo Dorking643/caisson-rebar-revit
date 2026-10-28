@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "file": "Combined.rvt",
+  "family_count": 2,
+  "file_unchanged": true,
+  "families": [
+    {
+      "strings_checked": 5923,
+      "sensitive_hit_count": 0,
+      "hits": [],
+      "family": "沉井筒壁_含D400与DN200预留孔",
+      "status": "READ"
+    },
+    {
+      "strings_checked": 5954,
+      "sensitive_hit_count": 0,
+      "hits": [],
+      "family": "沉井底板_直径4800_含周边坡口",
+      "status": "READ"
+    }
+  ],
+  "sha256": "B3E484E120CB65D68AAA8111726A7512B813D06FB88AAE306F3FEDF7894677D4"
+}

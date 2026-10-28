@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "status": "PASS",
+  "title": "CaissonRebar — Parametric Reinforcement Modeling for Circular Caissons",
+  "authors_in_confirmed_order": [
+    "Guangyao Zhang",
+    "Bojin Hao",
+    "Wenliang Ma",
+    "Lingxin Zeng",
+    "Jiaomei Wang",
+    "Qiuya Liu",
+    "Shangfei Yang"
+  ],
+  "version": "36.1.0",
+  "copyright": "Copyright 2026 The CaissonRebar Authors",
+  "license": "Apache-2.0",
+  "scope": "Project-owned source code, compiled programs, installation scripts, shell models, images and documentation.",
+  "citation_schema": {
+    "version": "1.2.0",
+    "validation": "PASS",
+    "source": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+    "sha256": "0B8D22140DA702D766DF318DCFF3A91AF2F39521298DCF36D76315FD99CC169B",
+    "validator": "jsonschema"
+  },
+  "license_text": {
+    "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+    "matches_official_download": true
+  },
+  "cross_document_author_order_and_copyright": "PASS",
+  "unavailable_repository_url_release_date_and_doi_omitted": true,
+  "inactive_metadata_template_removed": true,
+  "runtime_code_or_binary_changes": false,
+  "github_upload_performed": false
+}

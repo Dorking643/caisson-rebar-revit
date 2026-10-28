@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>P7.CaissonWallUi.R36.Share1</AssemblyName>
+    <Version>36.1.0</Version>
+    <Description>Caisson wall and slab reinforcement; anonymized portable derivative of R36.</Description>
+    <RevitApiDir Condition="'$(RevitApiDir)' == ''">C:\Program Files\Autodesk\Revit 2025</RevitApiDir>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=/_/CaissonRebar</PathMap>
+  </PropertyGroup>
+  <ItemGroup>
+
+    <Reference Include="RevitAPI"><HintPath>$(RevitApiDir)\RevitAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="RevitAPIUI"><HintPath>$(RevitApiDir)\RevitAPIUI.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckRevitApi" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(RevitApiDir)\RevitAPI.dll') or !Exists('$(RevitApiDir)\RevitAPIUI.dll')" Text="Set RevitApiDir to the installed Revit 2025 directory containing RevitAPI.dll and RevitAPIUI.dll." />
+  </Target>
+</Project>
+
+
+
+

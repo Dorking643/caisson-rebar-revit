@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "file": "Wall.rvt",
+  "family_count": 1,
+  "file_unchanged": true,
+  "families": [
+    {
+      "strings_checked": 5923,
+      "sensitive_hit_count": 0,
+      "hits": [],
+      "family": "沉井筒壁_含D400与DN200预留孔",
+      "status": "READ"
+    }
+  ],
+  "sha256": "B6C6DDD8D7752CD06A72846CA9F7B977AB8802EC4DC1D0A393E39662010E7902"
+}
